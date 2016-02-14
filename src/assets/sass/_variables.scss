@@ -1,0 +1,29 @@
+// Colors
+// Name you colors to adds more meaning for human
+$scooter: #3bafdb;
+$abbey: #4a4e57;
+$hit-gray: #a9b3bc;
+$shark: #232529;
+$white: #fff;
+
+$brand-color: $scooter;
+$background-color: $shark;
+$text-color: $abbey;
+$text-color-light: $hit-gray;
+
+// Typography 
+$font-base: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$light: 300;
+$normal: 400;
+$semibold: 500;
+$bold: 700;
+
+// Container
+$container-width: 960px;
+
+// Breakpoints
+$bp-mobile: 320px;
+$bp-phablet: 768px;
+$bp-tablet: 992px;
+$bp-desktop: 1024px;

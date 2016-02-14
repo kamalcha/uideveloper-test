@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Selz - UI Developer Test</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,300" rel="stylesheet">
+        <link href="assets/css/main.css" rel="stylesheet">
+    </head>
+    <body>
+    <div id="posts"></div>
+    <div class="container">
+        <div class="item">
+            <div class="item-figure">
+                <figure></figure>
+            </div><!-- item figure -->
+            <div class="item-detail">
+                <p class="quantity"></p>
+                <h1 class="item-title"></h1>
+                <div class="item-desc"></div>
+                <p class="item-price">
+                    <span class="item-price--sale"></span>
+                    <span class="item-price--before"></span>
+                </p>
+                <button type="submit" class="btn-buy"></button>
+                <ul class="payment-method">
+                    <li><svg class="icon"><use xlink:href="assets/icon/embed.svg#embed-logo-amex"/></svg></li>
+                    <li><svg class="icon"><use xlink:href="assets/icon/embed.svg#embed-logo-diners"/></svg></li>
+                    <li><svg class="icon"><use xlink:href="assets/icon/embed.svg#embed-logo-discover"/></svg></li>
+                    <li><svg class="icon"><use xlink:href="assets/icon/embed.svg#embed-logo-jcb"/></svg></li>
+                    <li><svg class="icon"><use xlink:href="assets/icon/embed.svg#embed-logo-mastercard"/></svg></li>
+                    <li><svg class="icon"><use xlink:href="assets/icon/embed.svg#embed-logo-paypal"/></svg></li>
+                    <li><svg class="icon"><use xlink:href="assets/icon/embed.svg#embed-logo-visa"/></svg></li>
+                </ul>
+            </div><!-- item detail -->
+        </div><!-- item -->
+        <footer>
+            <a href="http://www.selz.com" target="_blank">Powered by <svg class="logo"><use xlink:href="assets/icon/embed.svg#embed-logo-selz"/></svg></a>
+        </footer><!-- footer -->
+    </div><!-- container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- Provide jquery callback if not connected to internet  -->
+    <script>window.jQuery || document.write('<script src="../bower_components/jquery/dist/jquery.min.js"><\/script>')</script>
+    <script src="assets/js/main.min.js"></script>
+    </body>
+</html>
